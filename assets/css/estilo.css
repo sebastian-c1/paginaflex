@@ -1,0 +1,202 @@
+*{  margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.contenedor{
+    width: 100%;
+    margin: auto;
+    overflow: hidden;
+    padding: 60px 0;
+}
+
+/*menu*/
+
+.barraprincipal{
+    padding: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 80px;
+    background: #79d9ff;
+}
+
+.logo img{
+    text-align: center;
+    display:block;
+    width: 270px;
+    height: 100%;
+    padding-left: 20px;
+    margin-left: 20px;
+}
+
+.link li{
+    list-style: none;
+    display: inline-block;
+}
+
+.link a{
+    font-size: 20px;
+    text-decoration: none;
+    color: black;
+    padding: 15px;
+    margin-right: 5px;
+}
+
+.link li a:hover{
+    background: #3ea7f2;
+    border-radius: 10px;
+    padding: 20px 15px;
+}
+
+
+/* cabezera */
+
+.cabezera{
+    height: 207px;
+    background-color: #f2f2f2;    
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    text-align: center;
+}
+
+
+.cabezera p{
+    font-size: 20px;
+    font-weight: 500px;
+    margin-bottom: 40px;
+}
+
+
+
+.contenedor-textos a:hover{
+    background: #64B5F6;
+}
+/* MAIN*/
+
+.titulo-seccion{
+    text-align: center;
+    font-size: 35px;
+    
+}
+.titulo-seccion2{
+    text-align: center;
+    font-size: 31px;
+    
+}
+
+
+.bloque{
+    padding-top: 40px;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.cajaproducto{
+    float:left;
+    width:250px;
+    height: 340px;
+    border:1px solid black;
+    background-color: white;
+
+}
+.cajadescrip{
+    font-size:14px;
+    margin: 5px 5px 5px 5px;
+    width:188px;  
+    font-weight: bold;
+        
+    
+}
+.imagen1{
+       
+    width:240px;
+    position: relative;   
+    left: 3px;   
+    
+}
+.cajaprecio{
+    
+    margin: 5px 5px 5px 5px;
+    width:188px;      
+    height:34px;
+    font-size: 24px;
+    font-weight: bold;    
+    
+}
+
+.imagen2{    
+    width:240px;
+    height:221px;    
+    
+    position: relative;   
+    left: 3px;   
+    
+}
+
+
+.imagen3{
+    
+    
+    width:237px;
+    position: relative;   
+    left: 3px;   
+    
+}
+
+/*Ayudas*/
+
+/*footer*/
+
+footer {
+    background-color: #4888a1;
+    /*width: 100%;
+    height: 100px;
+    text-align: center;*/
+    /*color: white;     */
+    /*border-top: 1px solid black ;*/
+}
+
+  li {
+    
+    
+    list-style: none; 
+    display: inline-block;
+    text-align: center;
+    padding: 1px 10px;
+      
+    
+}
+
+
+.contenedor-footer {
+    width: 33%;
+    float:left;
+    text-align: center;
+    margin: auto; 
+    
+    
+    
+}
+.btn-mas {
+    
+    text-decoration: none;
+    color: black;
+}
+
+/*/////*/
+
+
+
+@media screen and (max-width:800px) {
+    /*.cabezera{
+        background-image: url("../img/perro.jpg"); 
+    }*/
+    .barraprincipal{
+        flex-direction: column;
+        height: 160px;
+        justify-content: space-evenly;
+    }
+}
