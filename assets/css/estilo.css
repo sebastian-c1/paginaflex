@@ -10,8 +10,6 @@
     padding: 60px 0;
 }
 
-/*menu*/
-
 .barraprincipal{
     padding: 0;
     display: flex;
@@ -21,8 +19,7 @@
     background: #79d9ff;
 }
 
-.logo img{
-    text-align: center;
+.logo img{    
     display:block;
     width: 270px;
     height: 100%;
@@ -30,37 +27,27 @@
     margin-left: 20px;
 }
 
-.link li{
-    list-style: none;
-    display: inline-block;
-}
-
 .link a{
     font-size: 20px;
     text-decoration: none;
     color: black;
     padding: 15px;
-    margin-right: 5px;
+    margin-right: 46px;
 }
 
 .link li a:hover{
-    background: #3ea7f2;
-    border-radius: 10px;
+    background: #3ea7f2;    
     padding: 20px 15px;
 }
-
 
 /* cabezera */
 
 .cabezera{
     height: 207px;
     background-color: #f2f2f2;    
-    background-position: center;
-    background-size: cover;
-    background-attachment: fixed;
+    background-position: center;    
     text-align: center;
 }
-
 
 .cabezera p{
     font-size: 20px;
@@ -68,18 +55,11 @@
     margin-bottom: 40px;
 }
 
-
-
 .contenedor-textos a:hover{
     background: #64B5F6;
 }
-/* MAIN*/
 
-.titulo-seccion{
-    text-align: center;
-    font-size: 35px;
-    
-}
+
 .titulo-seccion2{
     text-align: center;
     font-size: 31px;
@@ -258,6 +238,7 @@ footer {
         justify-content: space-evenly;
     }
 
-   
+    
+
      
 }
